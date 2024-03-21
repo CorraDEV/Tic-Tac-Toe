@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: green;
+}
+
+h1{
+    text-align: center;
+}
+
+#gameboard{
+    margin: 1em auto auto;
+    border-collapse: collapse;
+}
+
+#gameboard,
+.cell,
+.row{
+    border: 2px solid black;
+}
+
+.cell{
+    width: 15em;
+    height: 15em;    
+    text-align: center;
+    background-color: white;    
+}
+
+.cell > span{
+    font-size: 10em;    
+}
